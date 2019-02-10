@@ -93,7 +93,7 @@ namespace ctl_to_msq
                     }
                     int count = BitConverter.GetBytes(decimal.GetBits((decimal)bit[i, j])[3])[2];
                     bitst[i, j] = Convert.ToString(bit[i, j]);
-                    Regex pattern = new Regex("[ , ]"); //ПОд вопросом
+                    Regex pattern = new Regex("[ , ]");
                     bitst[i, j] = pattern.Replace(bitst[i, j], ".");
                     if (count < 2)
                         {
@@ -173,9 +173,8 @@ namespace ctl_to_msq
             XElement zValues = new XElement("zValues");
             zValues.Add(new XAttribute("cols", "16"),
                       new XAttribute("rows", "16"));
-            zValues.Value = xmlzValuesmass(mass,name) + Environment.NewLine + new string(' ', 4); //вот тут вот  уже mass весь обнулен
+            zValues.Value = xmlzValuesmass(mass,name) + Environment.NewLine + new string(' ', 4); 
             table.Add(zValues);
-            // )));
 
             doc.Root.Add(bibliography);
             doc.Root.Add(versionInfo);
