@@ -304,72 +304,12 @@ namespace ctl_to_msq
         private static Dictionary<string,string> transliter = new Dictionary<string, string>();
         private static void prepareTranslit() //Трансляция в транслит названия
         {
-            transliter.Add("а", "a");
-            transliter.Add("б", "b");
-            transliter.Add("в", "v");
-            transliter.Add("г", "g");
-            transliter.Add("д", "d");
-            transliter.Add("е", "e");
-            transliter.Add("ё", "yo");
-            transliter.Add("ж", "zh");
-            transliter.Add("з", "z");
-            transliter.Add("и", "i");
-            transliter.Add("й", "j");
-            transliter.Add("к", "k");
-            transliter.Add("л", "l");
-            transliter.Add("м", "m");
-            transliter.Add("н", "n");
-            transliter.Add("о", "o");
-            transliter.Add("п", "p");
-            transliter.Add("р", "r");
-            transliter.Add("с", "s");
-            transliter.Add("т", "t");
-            transliter.Add("у", "u");
-            transliter.Add("ф", "f");
-            transliter.Add("х", "h");
-            transliter.Add("ц", "c");
-            transliter.Add("ч", "ch");
-            transliter.Add("ш", "sh");
-            transliter.Add("щ", "sch");
-            transliter.Add("ъ", "j");
-            transliter.Add("ы", "i");
-            transliter.Add("ь", "j");
-            transliter.Add("э", "e");
-            transliter.Add("ю", "yu");
-            transliter.Add("я", "ya");
-            transliter.Add("А", "A");
-            transliter.Add("Б", "B");
-            transliter.Add("В", "V");
-            transliter.Add("Г", "G");
-            transliter.Add("Д", "D");
-            transliter.Add("Е", "E");
-            transliter.Add("Ё", "Yo");
-            transliter.Add("Ж", "Zh");
-            transliter.Add("З", "Z");
-            transliter.Add("И", "I");
-            transliter.Add("Й", "J");
-            transliter.Add("К", "K");
-            transliter.Add("Л", "L");
-            transliter.Add("М", "M");
-            transliter.Add("Н", "N");
-            transliter.Add("О", "O");
-            transliter.Add("П", "P");
-            transliter.Add("Р", "R");
-            transliter.Add("С", "S");
-            transliter.Add("Т", "T");
-            transliter.Add("У", "U");
-            transliter.Add("Ф", "F");
-            transliter.Add("Х", "H");
-            transliter.Add("Ц", "C");
-            transliter.Add("Ч", "Ch");
-            transliter.Add("Ш", "Sh");
-            transliter.Add("Щ", "Sch");
-            transliter.Add("Ъ", "J");
-            transliter.Add("Ы", "I");
-            transliter.Add("Ь", "J");
-            transliter.Add("Э", "E");
-            transliter.Add("Ю", "Yu");
-            transliter.Add("Я", "Ya");
+            string[] Rus = new[] { "а", "б", "в", "г", "д", "е", "ё", "ж", "з", "и", "й", "к", "л", "м", "н", "о", "п", "р", "с", "т", "у", "ф", "х", "ц", "ч", "ш", "щ", "ъ", "ы", "ь", "э", "ю", "я", "А", "Б", "В", "Г", "Д", "Е", "Ё", "Ж", "З", "И", "Й", "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У", "Ф", "Х", "Ц", "Ч", "Ш", "Щ", "Ъ", "Ы", "Ь", "Э", "Ю", "Я" };
+            string[] Eng = new[] { "a","b","v","g","d","e","yo","zh","z","i","j","k","l","m","n","o","p","r","s","t","u","f","h","c","ch","sh","sch","j","i","j","e","yu","ya","A","B","V","G","D","E","Yo","Zh","Z","I","J","K","L","M","N","O","P","R","S","T","U","F","H","C","Ch","Sh","Sch","J","I","J","E","Yu","Ya"};
+            for(var i = 0; i<Rus.Count();i++)
+            {
+                transliter.Add(Rus[i],Eng[i]);
+            }
         }
 
         private void button5_Click(object sender, EventArgs e) //SaveFolder
