@@ -7,3 +7,12 @@ C:\Users\akochegizov\source\repos\ctl_to_msq\ctl_to_msq\bin\Debug\ctl_to_msq.exe
 C:\Users\akochegizov\source\repos\ctl_to_msq\ctl_to_msq\bin\Debug\ctl_to_msq.pdb
 C:\Users\akochegizov\source\repos\ctl_to_msq\ctl_to_msq\obj\Debug\ctl_to_msq.exe
 C:\Users\akochegizov\source\repos\ctl_to_msq\ctl_to_msq\obj\Debug\ctl_to_msq.pdb
+C:\Users\akochegizov\source\repos\ctl_to_msq\trunk\ctl_to_msq\bin\Debug\ctl_to_msq.exe
+C:\Users\akochegizov\source\repos\ctl_to_msq\trunk\ctl_to_msq\bin\Debug\ctl_to_msq.pdb
+C:\Users\akochegizov\source\repos\ctl_to_msq\trunk\ctl_to_msq\obj\Debug\ctl_to_msq.csprojAssemblyReference.cache
+C:\Users\akochegizov\source\repos\ctl_to_msq\trunk\ctl_to_msq\obj\Debug\ctl_to_msq.Form1.resources
+C:\Users\akochegizov\source\repos\ctl_to_msq\trunk\ctl_to_msq\obj\Debug\ctl_to_msq.Properties.Resources.resources
+C:\Users\akochegizov\source\repos\ctl_to_msq\trunk\ctl_to_msq\obj\Debug\ctl_to_msq.csproj.GenerateResource.cache
+C:\Users\akochegizov\source\repos\ctl_to_msq\trunk\ctl_to_msq\obj\Debug\ctl_to_msq.csproj.CoreCompileInputs.cache
+C:\Users\akochegizov\source\repos\ctl_to_msq\trunk\ctl_to_msq\obj\Debug\ctl_to_msq.exe
+C:\Users\akochegizov\source\repos\ctl_to_msq\trunk\ctl_to_msq\obj\Debug\ctl_to_msq.pdb
